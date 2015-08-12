@@ -1,0 +1,74 @@
+.newheader{
+	height:40px;
+	width:800px;
+	background:#606060;
+	border-bottom:2px solid #6FBF4D;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+.newheader p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	line-height:40px;
+	color:#E2E4E1;
+	margin-left:10px;
+}
+.icerik{
+	height:auto;
+	width:770px;
+	background-color:#E2E4E1;
+	padding:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.icerikbaslik p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#606060;
+	margin-top:10px;
+	margin-bottom:10px;
+	/*border-bottom:1px solid #606060;*/
+	width:600px;
+}
+#formbaslik{
+	width:500px;
+	height:30px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#606060;
+	padding-left:10px;
+}
+.icerikkonu p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#606060;
+	margin-top:15px;
+	margin-bottom:10px;
+	/*border-bottom:1px solid #606060;*/
+	width:600px;
+}
+#formicerik{
+	width:600px;
+	height:300px;
+}
+#formbutton{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color:#026660;
+	color:#E2E4E1;
+	border:1px solid #434542;
+	margin-top:3px;
+	margin-left:540px;
+	text-align:center;
+	width:60px;
+	height:30px;
+	
+}
+#formbutton:hover{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color:#606060;
+	color:#E2E4E1;
+	border:1px solid #434542;
+	margin-top:3px;
+	margin-left:540px;
+	text-align:center;
+	width:60px;
+	height:30px;
+	
+}

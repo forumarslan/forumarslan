@@ -1,0 +1,64 @@
+/*top div start*/
+#top{
+	
+	height : 100px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*top div end*/
+
+/*top div logo start*/
+#toplogo{
+	
+	height : 100px;
+	width: 100px;
+	float : left;
+}
+/*top div logo end*/
+
+/*top div text start*/
+#toptext{
+	height : 100px;
+	width: 900px;
+	float : left;
+	font:bold 30px arial;
+	color:#434542;
+	text-align:center;
+	line-height:100px;
+}
+/*top div text end*/
+
+/*user input start*/
+#topuserinput{
+	height : 100px;
+	width: 400px;
+	float : left;
+}
+#userinput{
+	width:400px;
+	height:100px;
+}
+/*user input end*/
+
+/*user input button start*/
+#buton{
+    background:#2981E4;
+    padding:10px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 15px Arial, Helvetica, sans-serif;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+	
+	
+}
+#buton:hover{
+
+    box-shadow: 3px 3px 4px #000;
+    -moz-box-shadow: 0 1px 2px #000;
+    -webkit-box-shadow: 3px 3px 4px #000;
+	  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+/*user input button end*/

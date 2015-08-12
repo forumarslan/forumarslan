@@ -1,0 +1,44 @@
+/*top menu start*/
+#topmenu {
+	height: auto;
+	width: auto;
+	background-color:#434542;
+	border-bottom:3px solid #6FBF4D;
+}
+
+#navigation {
+	margin-left:auto;
+	margin-right:auto;
+	width:1064px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #CBD5C1;
+	height:40px;
+}
+
+#navigation ul {	
+    overflow: hidden;
+}
+
+#navigation li {
+	float: left;
+	border-left:1px solid  #434542;
+	border-right:1px solid  #434542;
+	width:150px;
+	text-align:center;
+}
+
+
+#navigation a {
+	display: block;
+	color: #CBD5C1;
+	text-decoration: none;
+	/*text-shadow: 0 1px #ccc;*/
+	font-size:15px;
+	line-height:40px;
+}
+
+#navigation a:hover, #navigation li.current a {
+	color: #FFF;
+	text-shadow: 0 1px #000;
+}
+/*top menu end*/

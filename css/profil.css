@@ -1,0 +1,179 @@
+#profilgenis{
+	width: 1000px;
+	height:auto;
+	margin-top:70px;
+	margin-left: auto;
+	margin-right:auto;
+}
+#profilsol{
+	float:left;
+	/*margin-left:125px;*/
+	
+	background-color:#E2E4E1;
+	height:600px;
+	width:200px;
+	
+	
+}
+#profilresim  img{
+	width:194px;
+	height:250px;
+	border:3px solid #434542;
+	
+}
+.sekmeAlani ul{
+	overflow:hidden;
+	list-style-type:none;
+    background-color:#434542;
+    
+	
+}
+.sekmeAlani ul li {
+	float:left;   
+	
+}
+
+.sekmeAlani ul li a{
+    width:200px;
+	color:red;
+	float:left;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	font-size:15px;
+	color: #E2E4E1;
+    border-bottom:2px solid #434542;
+    line-height: 20px;
+}
+.sekmeAlani a:hover{
+    border-bottom:2px solid #6FBF4D;
+}
+.sekmeAlani a.aktif{
+    color: #6FBF4D;
+}
+#uyelikbilgi p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+    margin-left:10px;
+}
+#uyelikbilgiyazi{
+	float:left;
+	margin-top:15px;
+    margin-bottom:10px;
+	color:#E2E4E1;
+	height:auto;
+}
+#uyelikbilgiyazi h4{
+	text-align: left;
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:20px;
+	
+	color: #434542;
+	width:200px;
+	text-align: center;
+	border-bottom:2px solid #6FBF4D;
+}
+#profilsag{
+	float:left;
+	background-color:#E2E4E1;
+	height:600px;
+	width:800px;
+	
+	
+}
+
+.smain{
+    margin:15px;
+    margin-left:30px;
+    
+}
+.sekmeAlani .profilduzenle{
+    background-color:#E2E4E1;
+}
+.profilduzenle li{
+    clear:both;
+    margin-bottom:10px;
+}
+.profilduzenle li p{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:#434542;
+    float:left;
+    font-weight: bold;
+    width:150px;
+}
+.profilduzenle li p+p{
+    font-weight: normal;
+    width:450px;
+}
+#box{
+	width:200px;
+    height:20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#606060;
+	padding-left:10px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+}
+.dogumtarihi {
+    padding:3px;
+	width:125px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+.fakultesec{
+	
+	width:300px;
+	height:30px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+.sekmeAlani .sonmesaj{
+    background-color:#E2E4E1;
+    
+}
+.sonmesaj li p{
+    font-size: 15px;
+    width:500px;
+    height:30px;
+    line-height: 30px;
+    float:left;
+    border-bottom:1px solid #434542;
+}
+.sonmesaj li p+p{
+    width:200px;
+    font-size:10px;
+}

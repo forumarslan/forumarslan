@@ -1,0 +1,46 @@
+#filter{
+	background-color: #CBD5C1;
+	
+}
+
+#filter h3{
+	text-align: left;
+	border: 1px solid;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:20px;
+	background-color: #434542;
+	color: #CBD5C1;
+	width:200px;
+	text-align: center;
+	margin-bottom:10px;
+	margin-top:70px;
+}
+#filter h4{
+	text-align: center;
+	border: 1px solid;
+	font-size:15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #606060;
+	color: #CBD5C1;
+	width:180px;
+	text-align: center;
+	margin-left:10px;
+	margin-bottom: 5px;
+}
+#filter input[type="text"] {
+    width: 180px;
+	margin-left:10px;
+}
+#filter select {
+    width: 180px;
+	margin-left:10px;
+}
+#filter input[type="checkbox"] {
+  
+	margin-left:20px;
+}
+#filter input[type="submit"] {
+  
+	margin-left:20px;
+	
+}

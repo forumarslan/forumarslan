@@ -1,0 +1,162 @@
+#mesaj{
+	
+	background-color: #CBD5C1;
+	margin-left:auto;
+	margin-right:auto;
+	width:1100px;
+	
+}
+#g{
+	float:left;
+}
+#gonderen{
+	margin-top:5px;
+	background-color: #606060;
+	
+}
+#gonderen p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+	color: #CBD5C1;
+}
+#gonderenresim{
+	float:left;
+}
+#gonderenresim  img{
+	width:50px;
+	height:50px;
+}
+#gmesaj{
+	width:530px;
+	height:auto;
+	border:1px solid #6FBF4D;
+	border-radius:15px ;
+	padding:18px;
+	background-color: white;
+	margin-left:15px;
+	float:left;
+	margin-top:10px;
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+	font-size:15px;
+}
+#a{
+	float:right;
+}
+#alan{
+	background-color: #606060;
+	float:right;
+	width:100%;
+	margin-top:10px;
+}
+#alan p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+	color: #CBD5C1;
+	
+	
+}
+#amesaj{
+	width:530px;
+	height:auto;
+	border:1px solid #6FBF4D;
+	border-radius:15px ;
+	padding:18px;
+	background-color: white;
+	margin-left:15px;
+	float:left;
+	margin-top:10px;
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+	font-size:15px;
+}
+
+#aliciresim{
+	float:right;
+}
+#aliciresim  img{
+	width:50px;
+	height:50px;
+}
+#gelenmesaj{
+	float:left;
+	/*margin-left:125px;*/
+	margin-top:70px;
+	background-color:#E2E4E1;
+	height:600px;
+	width:400px;
+	
+	
+}
+
+
+
+#gelenmesaj p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+	
+}
+#mesajicerik{
+	padding:5px;
+	
+}
+
+#yazisma{
+	float:left;
+	margin-left:50px;
+	margin-top:70px;
+	background-color:#E2E4E1;
+	height:auto;
+}
+#yazisma h4{
+	text-align: left;
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:20px;
+	background-color: #434542;
+	color: #CBD5C1;
+	width:600px;
+	text-align: center;
+	border-bottom:2px solid #6FBF4D;
+}
+#gelenmesaj h4{
+	text-align: left;
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	
+	background-color: #434542;
+	font-size:20px;
+	color: #CBD5C1;
+	width:400px;
+	text-align: center;
+	border-bottom:2px solid #6FBF4D;
+}
+#mesajyazim{
+	width: 550px;
+	
+}
+#mesajyaz{
+	width:550px;
+	height:250px;
+	margin-left:20px;
+	margin-top:10px;
+	padding:10px;
+	border-radius:10px;
+}
+#mesajbutton{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color:#606060;
+	color:#E2E4E1;
+	border:1px solid #434542;
+	margin-top:3px;
+	margin-left:540px;
+	text-align:center;
+	width:60px;
+	height:30px;
+	
+}
+#mesajbutton:hover{
+	
+	
+	border:1px solid #434542;
+	
+	cursor:pointer;
+}
