@@ -10,8 +10,7 @@
 	
 	<!--css file start-->
 	<link href="css/allpagesstyle.css" rel="stylesheet" type="text/css">
-	<link href="css/content.css" rel="stylesheet" type="text/css">
-	<link href="css/filtre.css" rel="stylesheet" type="text/css">	
+	<link href="css/content.css" rel="stylesheet" type="text/css">	
 	<link href="css/headerstyle.css" rel="stylesheet" type="text/css">
 	<link href="css/menustyle.css" type="text/css" rel="stylesheet">
 	<link href="css/bottomstyle.css" type="text/css" rel="stylesheet">
@@ -20,6 +19,10 @@
 </head>
 
 <body>
+    <?php
+        if(!isset($_COOKIE['login']))
+			header('Location: login.php');
+        ?>
 	<!--header start-->
 	<div id = "top"> 
 			
@@ -58,66 +61,7 @@
 	<!--menu end-->
 
 	
-	<!--bottom start--><div id="main">
-	<div id="filter">					
-			
-			<!--accordion menu star-->
-		
-				
-				<!--filtre start-->
-				
-						<h3>Filtre</h3>
-						<div class="panel loading">
-							<h4>Ara:</h4>
-							<p><input type="text" name="araText" /></p>
-							<h4>Kişi Ara:</h4>
-							<p><input type="text" name="kisiAraText" /></p>
-							<h4>Fakülte</h4>
-							<p>
-								<select> 
-									<option>Mühendislik Fakültesi</option>
-									<option>Fen ve Teknoloji Fakültesi</option>
-									<option>ilahiyat Fakültesi</option>
-								</select>
-							</p>
-							<h4>Bölüm</h4>
-							<p>
-								<select> 
-									<option>Bilgisayar Mühendisligi</option>
-									<option>Matematik Bölümü</option>
-									<option>Din Kültürü Ögretmenliği</option>
-								</select>
-							</p>
-							<h4>Sınıf:</h4>
-							<p>
-								<input type="checkbox" name="sınıf1Checkbox" />1.Sınıf
-								<input type="checkbox" name="sınıf2Checkbox" />2.Sınıf<br>	
-								<input type="checkbox" name="sınıf3Checkbox" />3.Sınıf
-								<input type="checkbox" name="sınıf4Checkbox" />4.Sınıf
-							</p>
-							<h4>Ögretim:</h4>
-							<p>
-								<input type="checkbox" name="ogretim1Checkbox" />I.Ögretim<br>
-								<input type="checkbox" name="ogretim1Checkbox" />II.Ögretim
-							</p>
-							<h4>Dil:</h4>
-							<p>
-								<input type="checkbox" name="dil30Checkbox" />%30Ing<br>
-								<input type="checkbox" name="dil100Checkbox" />%100Ing<br>
-								<input type="checkbox" name="dil0Checkbox" />Türkçe
-							</p>
-						</div>
-					</li>
-				</ul>
-				<!--filtre end-->
-				
-				
-				
-				<!--links start-->
-				
-					<input type="submit" value="ARA" />
-			
-			</div>
+	<!--bottom start-->
 	<div id="bottom">
 		<!--content start-->
 		<div class="content" id="content">
@@ -266,7 +210,7 @@
 		
 		</div>
 		<!--content end-->
-	</div></div>
+	</div>
 	<!--bottom end-->
 
 	
